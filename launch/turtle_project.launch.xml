@@ -1,0 +1,7 @@
+<launch>
+    <node pkg='turtlesim' exec='turtlesim_node' />
+    <node pkg='turtle_tracking_pkg' exec='turtle_controller_node' />
+    <timer period="1.0">
+        <node pkg='turtle_tracking_pkg' exec='turtle_spawner_node'/>
+    </timer>
+</launch>
