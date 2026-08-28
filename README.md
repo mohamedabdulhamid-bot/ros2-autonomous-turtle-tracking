@@ -3,7 +3,10 @@
 An event-driven ROS 2 package where a pursuer turtle autonomously tracks, intercepts, and removes dynamically spawned target turtles within the `turtlesim` environment. 
 
 
-https://github.com/user-attachments/assets/f6790547-2fb3-46e0-b4dd-ec3af8637851
+https://github.com/user-attachments/assets/4382f04d-4d95-4bdb-86aa-4f234c18c04c
+
+
+
 
 
 ## System Architecture
