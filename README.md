@@ -3,6 +3,10 @@
 An event-driven ROS 2 package where a pursuer turtle autonomously tracks, intercepts, and removes dynamically spawned target turtles within the `turtlesim` environment. 
 [Screencast from 2026-08-28 20-57-43.webm](https://github.com/user-attachments/assets/f657815e-6419-4afb-873e-dfb99218e34c)
 
+
+https://github.com/user-attachments/assets/946c5528-2011-46da-bcf0-6beb5268e132
+
+
 ## System Architecture
 
 This project utilizes a multi-node architecture communicating via ROS 2 topics and services:
@@ -41,10 +45,14 @@ Launch the complete system (simulation, controller, and delayed spawner) using t
    ```bash
    ros2 launch turtle_tracking_pkg turtle_project.launch.xml
    ```
-🛠️ Configuration
+## Configuration
 
 If the tracking turtle oscillates or overshoots the target, you can adjust the proportional gains (P-gains) directly inside turtle_controller.py:
 
     Linear Gain: Modifies interception speed.
 
     Angular Gain: Modifies rotation speed for target alignment.
+---
+Author: Mohamed Ahmed Abdulhamid Abdellah
+
+Contact: mohamed.abdulhamid404@gmail.com
