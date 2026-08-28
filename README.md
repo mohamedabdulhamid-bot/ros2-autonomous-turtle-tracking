@@ -1,10 +1,9 @@
 # ROS 2 Autonomous Turtle Tracking
 
 An event-driven ROS 2 package where a pursuer turtle autonomously tracks, intercepts, and removes dynamically spawned target turtles within the `turtlesim` environment. 
-[Screencast from 2026-08-28 20-57-43.webm](https://github.com/user-attachments/assets/f657815e-6419-4afb-873e-dfb99218e34c)
 
 
-https://github.com/user-attachments/assets/946c5528-2011-46da-bcf0-6beb5268e132
+https://github.com/user-attachments/assets/f6790547-2fb3-46e0-b4dd-ec3af8637851
 
 
 ## System Architecture
